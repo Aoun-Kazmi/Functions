@@ -15,3 +15,4 @@ int main(){
 cout<<"Enter Value : ";
 cin>>num1;
 num(num1);
+}
