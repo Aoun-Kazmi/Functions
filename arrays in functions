@@ -1,0 +1,16 @@
+#include<iostream>
+#include<array>
+
+using namespace std;
+
+int main(){
+    int i, arr;
+    cout<<"Enter size of 1D array : "<<endl;
+    cin>>arr;
+    int sum[arr];
+    for( i = 1; i <= arr; i++){
+        cout<<"Enter Value no."<<i<<endl;
+        cin>>sum[i];
+    }
+
+}
